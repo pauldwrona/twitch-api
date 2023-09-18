@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xm+5/vTe6kL+110TrPZbRFt3loEE6n4JQ5T2iyPTFCo=",
+  "Source": "twitch-api",
+  "BasePath": "_content/twitch-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

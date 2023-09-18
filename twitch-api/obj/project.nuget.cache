@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "MQ3jj6QuVDa5X7P2dKRDdEEy0Coiy05XwtmD9pu34mUBNeVJmAn34mtRqLw760raz91JRSx3LzxeNlLmqnS1qg==",
+  "success": true,
+  "projectFilePath": "/Users/paulwrona/Projects/twitch-api/twitch-api/twitch-api.csproj",
+  "expectedPackageFiles": [
+    "/Users/paulwrona/.nuget/packages/microsoft.aspnetcore.openapi/7.0.11/microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
+    "/Users/paulwrona/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/paulwrona/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/paulwrona/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/paulwrona/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/paulwrona/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/paulwrona/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
