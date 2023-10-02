@@ -10,9 +10,6 @@ namespace twitch_api.Models
 
         public string? ImageUrl { get; set; }
 
-        public PollOption(string _name)
-        {
-            Name = _name;
-        }
+        public PollOption(string _name) => Name = _name;
     }
 }

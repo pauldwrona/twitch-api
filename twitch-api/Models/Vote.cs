@@ -1,4 +1,6 @@
 ﻿using Microsoft.OpenApi.Models;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Eventing.Reader;
 using System.Security.AccessControl;
 
@@ -6,16 +8,20 @@ namespace twitch_api.Models
 {
     public class Vote : IComparable, IComparable<Vote>
     {
+        [Required]
         public string UserID { get; set; }
-        public DateTime TimeCreate { get; set; } = DateTime.Now;
-        public DateTime TimeUpdate { get; set; }
-        public int VoteWorth { get; set; } = 1;
+
+        public DateTime TimeCreated { get; } = DateTime.Now;
+        public DateTime TimeUpdated { get; } = DateTime.Now;
+
+        [DefaultValue(1)]
+        public int VoteWorth { get; set; }
 
         public Vote(string _userID, int? _voteValue)
         {
             UserID = _userID;
             VoteWorth = _voteValue ?? 1;
-            TimeUpdate = DateTime.Now;
+            TimeUpdated = DateTime.Now;
 
         }
 

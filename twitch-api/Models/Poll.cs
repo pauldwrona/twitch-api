@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure;
 using System.Collections;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Eventing.Reader;
 using System.Numerics;
 
@@ -8,9 +10,14 @@ namespace twitch_api.Models
 {
     public class Poll
     {
+        [Required]
         public int OwnerId { get; set; }
+
+        [Required]
         public string Name { get; set; }
         public string? Description { get; set; }
+
+        [DefaultValue("started")]
         public string? Status { get; set; }
         public Dictionary<int, List<PollOption>> Options { get; set; }
         public Dictionary<int, List<Vote>> Votes { get; set; }

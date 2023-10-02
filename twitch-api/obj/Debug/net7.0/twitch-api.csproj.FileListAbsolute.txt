@@ -64,3 +64,5 @@ C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\obj\Debug\net7.0\sc
 C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\obj\Debug\net7.0\twitch-api.csproj.CopyComplete
 C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\obj\Debug\net7.0\twitch-api.genruntimeconfig.cache
 C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\obj\Debug\net7.0\ref\twitch-api.dll
+C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll

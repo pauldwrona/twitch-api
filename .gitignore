@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # Additional, non-boilerplate bin/obj files
-twitch-api/bin/Debug/
-twitch-api/obj/Debug/
+twitch-api/bin/
+twitch-api/obj/
 
 
 # User-specific files
