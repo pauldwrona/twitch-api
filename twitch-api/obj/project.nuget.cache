@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YJ7Ay574zpA/AcqypkDLvo/E0qqSWQcLiVfeW3d17DawydFlpSYlHyyF0DpEkAqnV3yoAQeXeO8jNx6QEu2nkA==",
+  "dgSpecHash": "ujevB3owW0dB7KsZaktz6nR9J/u+RxLXg+/2fgOIBijPElzjP5edhTPH6HF8ln/nzNdymFvaLGvUdc4Ke4LsxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\pauld\\Source\\Repos\\pauldwrona\\twitch-api\\twitch-api\\twitch-api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\pauld\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\pauld\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "C:\\Users\\pauld\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
+    "C:\\Users\\pauld\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.11\\microsoft.entityframeworkcore.inmemory.7.0.11.nupkg.sha512",
     "C:\\Users\\pauld\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\pauld\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\pauld\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

@@ -66,3 +66,4 @@ C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\obj\Debug\net7.0\tw
 C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\obj\Debug\net7.0\ref\twitch-api.dll
 C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pauld\Source\Repos\pauldwrona\twitch-api\twitch-api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
