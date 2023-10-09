@@ -7,11 +7,11 @@ using twitch_api.Controllers;
 
 
 var builder = WebApplication.CreateBuilder(args);
-
+/*
 // Add services to the container.
 
 builder.Services.AddDbContext<PollContext>(options =>
-    options.UseInMemoryDatabase("Poll"));
+    options.UseInMemoryDatabase("Poll")); */
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -33,13 +33,13 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-using (var serviceScope = app.Services.CreateScope())
+/*using (var serviceScope = app.Services.CreateScope())
 {
     var context = serviceScope.ServiceProvider.GetRequiredService<PollContext>();
 
     context.Polls.Add(new Poll { OwnerId = -1, Name = "TestPoll", Description = "", Status = "" });
     await context.SaveChangesAsync();
-}
+}*/
 
 app.Run();
 

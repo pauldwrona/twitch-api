@@ -12,16 +12,19 @@ namespace twitch_api.Controllers;
 [Route("api/[controller]")]
 public class PollController : ControllerBase
 {
-    private readonly PollContext _context;
+    static Dictionary<int, Poll> Polls = new Dictionary<int, Poll>();
+    // private readonly PollContext _context;
     // </snippet_PollController>
 
-    public PollController(PollContext context) =>
-        _context = context;
+    /* public PollController(PollContext context) =>
+        _context = context; */
 
     // GET: api/<PollController>
     [HttpGet]
-    public async Task<List<Poll>> Get() => 
-        await _context.Polls.ToListAsync();
+    public async Dictionary<int, Poll> Get()
+    {
+        return Polls;
+    }
 
     // GET api/<PollController>/5/1
     [HttpGet("{id}/{pollName}")]
@@ -52,11 +55,13 @@ public class PollController : ControllerBase
     [HttpPut("{id}")]
     public void Put(string name, [FromBody]int id, string value)
     {
+
     }
 
     // DELETE api/<PollController>/5
     [HttpDelete("{id}")]
     public void Delete(int id)
     {
+
     }
 }

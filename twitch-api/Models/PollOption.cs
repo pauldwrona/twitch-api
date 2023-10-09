@@ -2,7 +2,7 @@
 
 namespace twitch_api.Models;
 
-public class PollChoice
+public class PollOption
 {
     public string Name { get; set; }
 
@@ -10,5 +10,5 @@ public class PollChoice
 
     public string? ImageUrl { get; set; }
 
-    public PollChoice(string _name) => Name = _name;
+    public PollOption(string _name) => Name = _name;
 }
